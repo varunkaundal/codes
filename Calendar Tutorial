@@ -1,0 +1,20 @@
+import calendar
+
+
+print(calendar.month(2019, 12, w =3))
+print(calendar.month(2020, 1, w =3))
+print(calendar.month(2020, 2, w =3))
+print(calendar.month(2020, 3, w =3))
+print(calendar.month(2020, 4, w =3))
+print(calendar.month(2020, 5, w =3))
+print(calendar.month(2020, 6, w =3))
+print(calendar.month(2020, 7, w =3))
+print(calendar.month(2020, 8, w =3))
+print(calendar.month(2020, 9, w =3))
+print(calendar.month(2020, 10, w =3))
+print(calendar.month(2020, 11, w =3))
+print(calendar.month(2020, 12, w =3))
+
+
+# code for whole year 2020
+print(calendar.calendar(2020))
