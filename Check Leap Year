@@ -1,0 +1,9 @@
+import calendar
+
+def issleeap(x):
+    iterweek = calendar.isleap(x)
+    print(iterweek)
+
+print("Leap Year check: ")
+a = input()
+issleeap(a)
