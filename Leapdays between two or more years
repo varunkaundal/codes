@@ -1,0 +1,7 @@
+import calendar
+
+leap_dayys = calendar.leapdays(1990,2070) # range in which we have diffrence of years . from 1990 till 2070 these how many leap days are there , then total days from 1990 till 2070
+tot = 80 * 365
+print(leap_dayys)
+total = tot +leap_dayys
+print(total)
