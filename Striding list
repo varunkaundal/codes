@@ -1,0 +1,8 @@
+listnew = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(listnew[2:9:1])   # iteration 1
+print(listnew[2:9:1])   # iteration 2
+print(listnew[5:0:-1])
+
+for i in range(len(listnew)):
+    print(listnew[0:i])
+
