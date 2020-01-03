@@ -1,0 +1,22 @@
+import turtle
+
+nep_turtle = turtle.Turtle()
+
+def square():
+    nep_turtle.forward(300)
+    nep_turtle.right(90)
+    nep_turtle.forward(300)
+    nep_turtle.right(90)
+    nep_turtle.forward(300)
+    nep_turtle.right(90)
+    nep_turtle.forward(300)
+
+a = 10
+b = 9
+if a > b:
+    square()
+    input()
+else:
+    print("NO, please try again")
+
+input()
