@@ -1,0 +1,11 @@
+# lone, ltwo and three all are lists with hetrogenous (diffrent type of data). 
+
+lone = [1, 2, 3, 4, 5, 6, "hello", "4.2", "True"]\
+
+ltwo = [4, 5, 6, "hello"]
+
+lthree = [4, 5, 6, "hello", 4, 5, 6, "hello", 4, 5, 6, "hello"]
+a = len(lthree)
+for i in range(a):
+    print(lthree[i])
+
