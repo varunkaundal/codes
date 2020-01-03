@@ -1,0 +1,20 @@
+# list
+names = ["Varun", "Rock", "Teddy"]
+print(names)
+# only add Tinno atlast of list
+names.append("Tinno")
+print(names)
+# add happy in beggining or anywhere with the help of indexing
+names.insert(0, "Happy")
+print(names)
+# Happy will be deleted
+names.remove("Happy")
+print(names)
+# reverse the list
+names.reverse()
+print(names)
+# to sort the numbers
+numbers = [7, 6, 8, 3, 9, 1, 0, 4, 5, 10, 2]
+print(numbers)
+numbers.sort()
+print(numbers)
