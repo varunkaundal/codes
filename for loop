@@ -1,0 +1,20 @@
+import turtle
+
+sethu_turtle = turtle.Turtle()
+#sethu_turtle.speed()
+
+def square():
+    sethu_turtle.forward(50)
+    sethu_turtle.right(90)
+    sethu_turtle.forward(50)
+    sethu_turtle.right(90)
+    sethu_turtle.forward(50)
+    sethu_turtle.right(90)
+    sethu_turtle.forward(50)
+    
+
+
+for i in range(4):
+    square()
+
+    
