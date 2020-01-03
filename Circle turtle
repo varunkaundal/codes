@@ -1,0 +1,14 @@
+import turtle
+
+varun = turtle.Turtle()
+
+def circle_turtle():
+    varun.right(1)
+    varun.forward(1)
+
+for i in range (360):
+    circle_turtle()
+
+
+
+input()
