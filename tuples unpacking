@@ -1,0 +1,10 @@
+student1 = ('Varun', "109", 'Science with Maths')  # first tuple
+student2 = ('Sethu', "110", 'Science with IT')      # second tuple
+
+students = [student1, student2]    # assigning first tuple and second tuple in students list
+
+for name, roll_no, subject in students:  # unpacking student1 and student 2 tuple with students list and loops
+    print(name)
+    print(roll_no)
+    print(subject)
+    print("\n")
