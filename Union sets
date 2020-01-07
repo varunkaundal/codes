@@ -1,0 +1,4 @@
+movies_1 = {"Hum", "Om", "Hello", "Tekan"}  # set 1
+movies_2 = {"Jumanji", "MIB", "Om", "Hum", "Tekan"}  # set 2
+
+print(movies_1.union(movies_2))   # firstset.union(secondset) eleminates all duplicates
