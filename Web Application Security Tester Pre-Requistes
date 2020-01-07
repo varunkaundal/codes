@@ -1,0 +1,18 @@
+Web application developement process
+	How frontend and backend works
+	where to use asp.net, jsp, php.
+How databses are integrated?
+SQL sytanx and understaninf is must.
+what is application server?
+what is web server?
+Understanding about CMS mentioned below 
+	wordpress, joomla, drupal
+OSI model ( Till  Application, presentation, session, transport and network layers)
+what are CDNs, proxy servers?
+HTTP and https
+Web application firewalls.
+Static and Dynamic Web pages.
+
+Read and understand OWASP top 10.
+Download bwapp and DVWA applications or Metasploitable Linux machine ( It has web app hosted ). 
+Now, download hacker handbook or testing guide v3. Use both these books on bwapp and DVWA applications.
