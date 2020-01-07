@@ -1,0 +1,9 @@
+set1 = {'bannana', 'apple', 'grapes', 'litchi'} # set declaration
+
+set1.add('gauva')   # add an element in existing set set1
+
+print(set1)
+
+set1.remove('bannana')   # remove an element in existing set 1
+print(set1)
+
