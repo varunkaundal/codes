@@ -1,0 +1,17 @@
+list_data = [1, 2, 3, 4, 5 , 6, 7, 8, 9]
+
+print(list_data)
+size = len(list_data)
+first_item = size-(size - 1)
+
+#print(size)
+#print(first_item)
+
+
+list_data[0] = size
+list_data[8] = first_item
+
+print(list_data)
+
+#for i in range(size):
+
