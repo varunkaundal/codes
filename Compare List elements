@@ -1,0 +1,6 @@
+list_compare = ['apple', 'gauva', "litchi", "blueberry", 'kiwi', "grapes", "orange"]
+print(list_compare)
+data_enter = input("enter the values   ")
+for i in range(len(list_compare)):
+    if (data_enter == (list_compare[i])):
+        print("Yes it is present  " + list_compare[i])
