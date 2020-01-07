@@ -1,0 +1,2 @@
+tuples1 = (123456789123456789, 'Hello', 263) # constant data, cannot add anything in tuples
+print(tuples1)
