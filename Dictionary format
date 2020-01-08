@@ -1,2 +1,2 @@
-fruits = {'oranges':10, 'kiwi': 15, 'watermelon':20, 'grapes': 40, 'apples': 22}
+fruits = {'oranges':10, 'kiwi': 15, 'watermelon':20, 'grapes': 40, 'apples': 22}   # fruits is a dictionary, orange is key and kiwi is value so on.
 print(fruits[0])
