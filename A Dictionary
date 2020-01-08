@@ -1,0 +1,11 @@
+phone_numbers = {'varun':123456789,
+                 'atul':98765435,
+                 'mac':2356245,
+                 'him':2984723,
+                 'teddy':423893428 
+}
+
+for i in phone_numbers:
+    print(i)
+name = input(" enter the name :  ")
+print(phone_numbers[name])
