@@ -1,0 +1,2 @@
+fruits = {'oranges':10, 'kiwi': 15, 'watermelon':20, 'grapes': 40, 'apples': 22}
+print(fruits[0])
