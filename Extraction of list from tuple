@@ -1,0 +1,10 @@
+data = (1,2,3,4,5,6,[5,4,3,2,7,8],8,5,6,7)
+list_index = int(input("\nPlease enter list start index number"))  # as of now we do not know how to find index number of nested list, so need to enter manually.
+l = []                                                             # this will store the list separetly
+for i in range(len(data)):                                         # first loop to extract all the elements in tuples
+    if((data[i])==(data[list_index])):                             # condition on the start index number of list.
+        for j in range(10):                                         # second loop which will extract list elements.  range is junk,
+            l = data[i]
+    else:
+        print(data[i])
+print(l)
