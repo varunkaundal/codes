@@ -1,5 +1,5 @@
 import re
-text1 = input("\n please enter an email address: ")
-pattern = re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+.+[a-zA-Z]")
-result = pattern.search(text1)
+text1 = input("\nEnter the text for email pattern search: ")
+pattern = re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
+result = pattern.findall(text1)
 print(result)
