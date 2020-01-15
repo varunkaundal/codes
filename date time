@@ -1,0 +1,8 @@
+import datetime
+today = datetime.date.today()
+
+birth = datetime.date.today()
+if (birth == today):
+    print("happy birthday")
+else:
+    print("hello")
