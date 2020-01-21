@@ -1,0 +1,10 @@
+import requests
+
+status = 200  # 200 status code means page is available
+url_to_check = input(" Please enter the url \n")
+analyse = requests.get(url_to_check)
+real_status = analyse.status_code   # status code stores a status once page is found or not
+if (real_status == status):
+    print("\nIt is found on server  " + url_to_check)
+else:
+    print("NO")
