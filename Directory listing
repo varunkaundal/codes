@@ -1,0 +1,16 @@
+import requests
+with open('/root/python programs/common.txt','r') as f:
+    score = [line.rstrip('\n') for line in f]
+   # print(score)
+print(len(score))
+url_name = input("please enter the url here:  -  ")
+for i in range(len(score)):
+    final_url = url_name + score[i]
+    #print(final_url)
+    status = 200
+    analyse = requests.get(final_url)
+    real_status = analyse.status_code
+    if (real_status == status):
+        print("\nIt is found on server  " + final_url)
+    else:
+        print("NO, not available " + final_url)
