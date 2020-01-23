@@ -1,0 +1,6 @@
+abc = ['hello', 'I', 'am', 'Human']
+
+with open('hello.txt', 'w') as f:
+    for item in abc:
+        f.write("%s\n" % item)
+        
