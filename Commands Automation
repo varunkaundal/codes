@@ -1,0 +1,4 @@
+import os
+list_commands = ['ls', 'pwd', 'uname -ar', 'cat /etc/passwd']
+for i in range(len(list_commands)):
+    os.system(list_commands[i])
