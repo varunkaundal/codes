@@ -1,0 +1,48 @@
+import argparse
+
+parser = argparse.ArgumentParser(description="A Simple Calculator for 2 numbers")
+
+parser.add_argument("--num1", action ="store", help = "number 1", type = float)
+parser.add_argument("--num2", action ="store", help = "number 2", type = float)
+parser.add_argument("--sum", action = "store_true", help = "for addition")
+parser.add_argument("--sub", action = "store_true", help = "for subtraction")
+parser.add_argument("--multi", action = "store_true", help = "for multiplication")
+parser.add_argument("--div", action = "store_true", help = "for division")
+parser.add_argument("--mod", action = "store_true", help = "for mudules")
+parser.add_argument("--version", action = "version", version = '%(prog)s 1.0')
+
+
+args = parser.parse_args()
+
+print("Usage : python/python3 --sum --num1 10 --num 20")
+
+if (args.sum) and (args.num1) and (args.num2):
+    num1 = args.num1 + args.num2
+    print("The addition of two numbers is: ")
+    print(num1)
+
+elif (args.sub) and (args.num1) and (args.num2):
+    num1 = args.num1 - args.num2
+    print("The subtraction of two numbers is: ")
+    print(num1)
+
+elif (args.multi) and (args.num1) and (args.num2):
+    num1 = args.num1 * args.num2
+    print("The multiplication of two numbers is: ")
+    print(num1)
+
+elif (args.div) and (args.num1) and (args.num2):
+    num1 = args.num1 / args.num2
+    print("The division of two numbers is: ")
+    print(num1)
+
+elif (args.mod) and (args.num1) and (args.num2):
+    num1 = args.num1 % args.num2
+    print("The modules of two numbers is: ")
+    print(num1)
+
+else:
+    print("provide arguments.....")
+
+
+
